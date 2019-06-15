@@ -1,0 +1,52 @@
+\documentclass[a4paper,12pt,Times New Roman,numbered,print,index]
+{report}
+\usepackage[utf8]{inputenc}
+\usepackage{subcaption}
+\usepackage{sectsty}
+\usepackage{amssymb} 
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{ltxtable}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{placeins}
+\usepackage{needspace}
+\usepackage[english]{babel}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage{rotating}
+\usepackage{float}
+\usepackage{tabto}
+\usepackage[a4paper,top=1in,left=1.5in,bottom=1in,right=1in]{geometry}
+\chapterfont{\centering}
+
+\newcommand{\sign}[1]{%      
+  \begin{tabular}[t]{@{}l@{}}
+  \makebox[1.5in]{\dotfill}\\
+  \strut#1\strut
+  \end{tabular}%
+}
+\newcommand{\Date}{%
+  \begin{tabular}[t]{@{}p{1.5in}@{}}
+  \\[-2ex]
+  \strut Date: \dotfill\strut
+  \end{tabular}%
+}
+
+\begin{document}
+\include{title}
+\include{copyright}
+\include{description}
+\include{abstract}
+\include{tableofcontents}
+\include{chapter1}
+\include{chapter2}
+\include{chapter3}
+\include{chapter4}
+\include{chapter5}
+\include{chapter6}
+\include{chapter7}
+\include{ref}
+
+\end{document}

@@ -1,0 +1,13 @@
+\chapter{Conclusion}
+\paragraph{}In this thesis, the objectives are to improve the BLE indoor positioning and implement a mobile application that display the indoor and outdoor location of the object in 2-D map. It contributes to the study and research of the nature of n variable which directly affects the performance of the system. In addition, the authors collect RAW data of RSSI in multiple sets in several environments to see the trend and predict the n value in real-time. Unfortunately, there are many factors that are related to n variable such as, interference of signal, temperature, etc. Thus, the value cannot be predicted. However, to achieve our objective, the authors set a logical condition after trilateration process to get the position and return a more reliability result. From the result, the authors can achieve a high precision score of 0.88 and  standard deviation of 0.053.
+\section{Problem and Obstacle}
+\paragraph{}
+\subsection{Hardware Limitation}
+\paragraph{}For Bluetooth Low Energy device 4.1, the  RSSI value send from the device is very fluctuate and unreliable in sometimes. Especially, the environmental factors such as objects or people in the area could  affect the BLE signal transmission which also leads to wrong distances estimation.
+
+\section{Future work}
+\subsection{Hardware}
+\paragraph{}In the future, there will be Bluetooth 5.1 which has direction-finding feature that will let Bluetooth devices pinpoint physical location to the centimeter, aiding in indoor positioning. Bluetooth 5.1 offers two different methods for determining direction, named “Angle of Arrival” (AoA) and “Angle of Departure” (AoD). One of the two devices must have an array of multiple antennas, and the data received from those antennas can be used to identify the direction the Bluetooth signal is coming from.
+\paragraph{}If you’re carrying a smartphone around and that phone has Bluetooth 5.1, a positioning system can have a good idea about your exact location. This could be used to improve navigation indoors, find your lost keys, or enable smarthome hardware to better pinpoint your location
+\subsection{Algorithm}
+\paragraph{}In indoor positioning computation method, there are many solutions to improve the positioning performance For example, Indoor Positioning System with Pedestrian Dead Reckoning and BLE Inverse Fingerprinting by H. J. Bae and L. Choi [24]
